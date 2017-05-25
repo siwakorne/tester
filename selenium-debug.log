@@ -1,0 +1,150 @@
+16:19:23.827 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
+16:19:23.827 INFO - Launching a standalone Selenium Server
+2017-05-07 16:19:23.845:INFO::main: Logging initialized @237ms to org.seleniumhq.jetty9.util.log.StdErrLog
+16:19:23.894 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+ registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform LINUX
+16:19:23.895 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform LINUX
+16:19:23.895 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+16:19:23.895 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+Unable to create new instances on this machine.
+16:19:23.895 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+16:19:23.895 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+16:19:23.896 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform LINUX
+2017-05-07 16:19:23.938:INFO:osjs.Server:main: jetty-9.4.3.v20170317
+2017-05-07 16:19:23.977:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@523884b2{/,null,AVAILABLE}
+2017-05-07 16:19:23.998:INFO:osjs.AbstractConnector:main: Started ServerConnector@15931365{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-05-07 16:19:24.000:INFO:osjs.Server:main: Started @393ms
+16:19:24.000 INFO - Selenium Server is up and running
+16:19:24.385 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+16:19:24.409 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+16:19:24.429 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.29.461571 (8a88bbe0775e2a23afda0ceaf2ef7ee74e822cc5) on port 23096
+Only local connections are allowed.
+16:19:25.329 INFO - Detected dialect: OSS
+16:19:25.378 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+16:19:25.403 INFO - Executing: [get: http://localhost:8080])
+16:19:26.762 INFO - Done: [get: http://localhost:8080]
+16:19:26.775 INFO - Executing: [find elements: By.cssSelector: #app])
+16:19:26.823 INFO - Done: [find elements: By.cssSelector: #app]
+16:19:26.829 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on LINUX (92a80a91e6c9b51207d73d795edd4566)] -> css selector: #app]])
+16:19:26.871 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on LINUX (92a80a91e6c9b51207d73d795edd4566)] -> css selector: #app]]
+16:19:26.878 INFO - Executing: [find elements: By.cssSelector: .hello])
+16:19:26.901 INFO - Done: [find elements: By.cssSelector: .hello]
+16:19:26.910 INFO - Executing: [execute script: var passedArgs = Array.prototype.slice.call(arguments,0); return function (selector) {
+      return document.querySelectorAll(selector).length;
+    }.apply(window, passedArgs);, [ul]])
+16:19:26.918 INFO - Done: [execute script: var passedArgs = Array.prototype.slice.call(arguments,0); return function (selector) {
+      return document.querySelectorAll(selector).length;
+    }.apply(window, passedArgs);, [ul]]
+16:19:26.924 INFO - Executing: [execute script: var passedArgs = Array.prototype.slice.call(arguments,0); return function (selector) {
+      return document.querySelectorAll(selector).length;
+    }.apply(window, passedArgs);, [li]])
+16:19:26.931 INFO - Done: [execute script: var passedArgs = Array.prototype.slice.call(arguments,0); return function (selector) {
+      return document.querySelectorAll(selector).length;
+    }.apply(window, passedArgs);, [li]]
+16:19:26.939 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+16:19:26.960 INFO - Done: [find element: By.cssSelector: input[type=text]]
+16:19:26.967 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on LINUX (92a80a91e6c9b51207d73d795edd4566)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h]])
+16:19:27.054 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on LINUX (92a80a91e6c9b51207d73d795edd4566)] -> css selector: input[type=text]], [n, i, g, h, t, w, a, t, c, h]]
+16:19:27.060 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+16:19:27.072 INFO - Done: [find element: By.cssSelector: input[type=text]]
+16:19:27.075 INFO - Executing: [get element attribute: 2 [[ChromeDriver: chrome on LINUX (92a80a91e6c9b51207d73d795edd4566)] -> css selector: input[type=text]], value])
+16:19:27.083 INFO - Done: [get element attribute: 2 [[ChromeDriver: chrome on LINUX (92a80a91e6c9b51207d73d795edd4566)] -> css selector: input[type=text]], value]
+16:19:27.087 INFO - Executing: [find element: By.cssSelector: button#add])
+16:19:27.111 INFO - Done: [find element: By.cssSelector: button#add]
+16:19:27.119 INFO - Executing: [click: 3 [[ChromeDriver: chrome on LINUX (92a80a91e6c9b51207d73d795edd4566)] -> css selector: button#add]])
+16:19:27.179 INFO - Done: [click: 3 [[ChromeDriver: chrome on LINUX (92a80a91e6c9b51207d73d795edd4566)] -> css selector: button#add]]
+16:19:27.187 INFO - Executing: [execute script: var passedArgs = Array.prototype.slice.call(arguments,0); return function (selector) {
+      return document.querySelectorAll(selector).length;
+    }.apply(window, passedArgs);, [li]])
+16:19:27.195 INFO - Done: [execute script: var passedArgs = Array.prototype.slice.call(arguments,0); return function (selector) {
+      return document.querySelectorAll(selector).length;
+    }.apply(window, passedArgs);, [li]]
+16:19:27.202 INFO - Executing: [find element: By.cssSelector: li])
+16:19:27.227 INFO - Done: [find element: By.cssSelector: li]
+16:19:27.230 INFO - Executing: [get text: 4 [[ChromeDriver: chrome on LINUX (92a80a91e6c9b51207d73d795edd4566)] -> css selector: li]])
+16:19:27.258 INFO - Done: [get text: 4 [[ChromeDriver: chrome on LINUX (92a80a91e6c9b51207d73d795edd4566)] -> css selector: li]]
+16:19:27.263 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+16:19:27.273 INFO - Done: [find element: By.cssSelector: input[type=text]]
+16:19:27.278 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on LINUX (92a80a91e6c9b51207d73d795edd4566)] -> css selector: input[type=text]], [v, u, e]])
+16:19:27.309 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on LINUX (92a80a91e6c9b51207d73d795edd4566)] -> css selector: input[type=text]], [v, u, e]]
+16:19:27.313 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+16:19:27.326 INFO - Done: [find element: By.cssSelector: input[type=text]]
+16:19:27.330 INFO - Executing: [get element attribute: 2 [[ChromeDriver: chrome on LINUX (92a80a91e6c9b51207d73d795edd4566)] -> css selector: input[type=text]], value])
+16:19:27.351 INFO - Done: [get element attribute: 2 [[ChromeDriver: chrome on LINUX (92a80a91e6c9b51207d73d795edd4566)] -> css selector: input[type=text]], value]
+16:19:27.355 INFO - Executing: [find element: By.cssSelector: button#add])
+16:19:27.365 INFO - Done: [find element: By.cssSelector: button#add]
+16:19:27.370 INFO - Executing: [click: 3 [[ChromeDriver: chrome on LINUX (92a80a91e6c9b51207d73d795edd4566)] -> css selector: button#add]])
+16:19:27.400 INFO - Done: [click: 3 [[ChromeDriver: chrome on LINUX (92a80a91e6c9b51207d73d795edd4566)] -> css selector: button#add]]
+16:19:27.407 INFO - Executing: [execute script: var passedArgs = Array.prototype.slice.call(arguments,0); return function (selector) {
+      return document.querySelectorAll(selector).length;
+    }.apply(window, passedArgs);, [li]])
+16:19:27.413 INFO - Done: [execute script: var passedArgs = Array.prototype.slice.call(arguments,0); return function (selector) {
+      return document.querySelectorAll(selector).length;
+    }.apply(window, passedArgs);, [li]]
+16:19:27.420 INFO - Executing: [find element: By.cssSelector: li:nth-child(1)])
+16:19:27.444 INFO - Done: [find element: By.cssSelector: li:nth-child(1)]
+16:19:27.448 INFO - Executing: [get text: 4 [[ChromeDriver: chrome on LINUX (92a80a91e6c9b51207d73d795edd4566)] -> css selector: li]])
+16:19:27.460 INFO - Done: [get text: 4 [[ChromeDriver: chrome on LINUX (92a80a91e6c9b51207d73d795edd4566)] -> css selector: li]]
+16:19:27.465 INFO - Executing: [find element: By.cssSelector: li:nth-child(2)])
+16:19:27.488 INFO - Done: [find element: By.cssSelector: li:nth-child(2)]
+16:19:27.490 INFO - Executing: [get text: 5 [[ChromeDriver: chrome on LINUX (92a80a91e6c9b51207d73d795edd4566)] -> css selector: li:nth-child(2)]])
+16:19:27.515 INFO - Done: [get text: 5 [[ChromeDriver: chrome on LINUX (92a80a91e6c9b51207d73d795edd4566)] -> css selector: li:nth-child(2)]]
+16:19:27.519 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+16:19:27.530 INFO - Done: [find element: By.cssSelector: input[type=text]]
+16:19:27.535 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on LINUX (92a80a91e6c9b51207d73d795edd4566)] -> css selector: input[type=text]], [v, u, e, x]])
+16:19:27.575 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on LINUX (92a80a91e6c9b51207d73d795edd4566)] -> css selector: input[type=text]], [v, u, e, x]]
+16:19:27.580 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+16:19:27.594 INFO - Done: [find element: By.cssSelector: input[type=text]]
+16:19:27.598 INFO - Executing: [get element attribute: 2 [[ChromeDriver: chrome on LINUX (92a80a91e6c9b51207d73d795edd4566)] -> css selector: input[type=text]], value])
+16:19:27.605 INFO - Done: [get element attribute: 2 [[ChromeDriver: chrome on LINUX (92a80a91e6c9b51207d73d795edd4566)] -> css selector: input[type=text]], value]
+16:19:27.609 INFO - Executing: [find element: By.cssSelector: button#add])
+16:19:27.618 INFO - Done: [find element: By.cssSelector: button#add]
+16:19:27.622 INFO - Executing: [click: 3 [[ChromeDriver: chrome on LINUX (92a80a91e6c9b51207d73d795edd4566)] -> css selector: button#add]])
+16:19:27.657 INFO - Done: [click: 3 [[ChromeDriver: chrome on LINUX (92a80a91e6c9b51207d73d795edd4566)] -> css selector: button#add]]
+16:19:27.663 INFO - Executing: [execute script: var passedArgs = Array.prototype.slice.call(arguments,0); return function (selector) {
+      return document.querySelectorAll(selector).length;
+    }.apply(window, passedArgs);, [li]])
+16:19:27.673 INFO - Done: [execute script: var passedArgs = Array.prototype.slice.call(arguments,0); return function (selector) {
+      return document.querySelectorAll(selector).length;
+    }.apply(window, passedArgs);, [li]]
+16:19:27.678 INFO - Executing: [find element: By.cssSelector: li:nth-child(1)])
+16:19:27.690 INFO - Done: [find element: By.cssSelector: li:nth-child(1)]
+16:19:27.693 INFO - Executing: [get text: 4 [[ChromeDriver: chrome on LINUX (92a80a91e6c9b51207d73d795edd4566)] -> css selector: li]])
+16:19:27.706 INFO - Done: [get text: 4 [[ChromeDriver: chrome on LINUX (92a80a91e6c9b51207d73d795edd4566)] -> css selector: li]]
+16:19:27.711 INFO - Executing: [find element: By.cssSelector: li:nth-child(2)])
+16:19:27.722 INFO - Done: [find element: By.cssSelector: li:nth-child(2)]
+16:19:27.725 INFO - Executing: [get text: 5 [[ChromeDriver: chrome on LINUX (92a80a91e6c9b51207d73d795edd4566)] -> css selector: li:nth-child(2)]])
+16:19:27.741 INFO - Done: [get text: 5 [[ChromeDriver: chrome on LINUX (92a80a91e6c9b51207d73d795edd4566)] -> css selector: li:nth-child(2)]]
+16:19:27.752 INFO - Executing: [find element: By.cssSelector: li:nth-child(3)])
+16:19:27.777 INFO - Done: [find element: By.cssSelector: li:nth-child(3)]
+16:19:27.781 INFO - Executing: [get text: 6 [[ChromeDriver: chrome on LINUX (92a80a91e6c9b51207d73d795edd4566)] -> css selector: li:nth-child(3)]])
+16:19:27.806 INFO - Done: [get text: 6 [[ChromeDriver: chrome on LINUX (92a80a91e6c9b51207d73d795edd4566)] -> css selector: li:nth-child(3)]]
+16:19:27.811 INFO - Executing: [execute script: var passedArgs = Array.prototype.slice.call(arguments,0); return function (selector) {
+      return document.querySelectorAll(selector).length;
+    }.apply(window, passedArgs);, [button]])
+16:19:27.821 INFO - Done: [execute script: var passedArgs = Array.prototype.slice.call(arguments,0); return function (selector) {
+      return document.querySelectorAll(selector).length;
+    }.apply(window, passedArgs);, [button]]
+16:19:30.829 INFO - Executing: [find element: By.cssSelector: #button_1])
+16:19:30.851 INFO - Done: [find element: By.cssSelector: #button_1]
+16:19:30.854 INFO - Executing: [click: 7 [[ChromeDriver: chrome on LINUX (92a80a91e6c9b51207d73d795edd4566)] -> css selector: #button_1]])
+16:19:30.910 INFO - Done: [click: 7 [[ChromeDriver: chrome on LINUX (92a80a91e6c9b51207d73d795edd4566)] -> css selector: #button_1]]
+16:19:30.920 INFO - Executing: [execute script: var passedArgs = Array.prototype.slice.call(arguments,0); return function (selector) {
+      return document.querySelectorAll(selector).length;
+    }.apply(window, passedArgs);, [li]])
+16:19:30.925 INFO - Done: [execute script: var passedArgs = Array.prototype.slice.call(arguments,0); return function (selector) {
+      return document.querySelectorAll(selector).length;
+    }.apply(window, passedArgs);, [li]]
+16:19:30.933 INFO - Executing: [find element: By.cssSelector: li:nth-child(1)])
+16:19:30.943 INFO - Done: [find element: By.cssSelector: li:nth-child(1)]
+16:19:30.946 INFO - Executing: [get text: 4 [[ChromeDriver: chrome on LINUX (92a80a91e6c9b51207d73d795edd4566)] -> css selector: li]])
+16:19:30.959 INFO - Done: [get text: 4 [[ChromeDriver: chrome on LINUX (92a80a91e6c9b51207d73d795edd4566)] -> css selector: li]]
+16:19:30.967 INFO - Executing: [find element: By.cssSelector: li:nth-child(2)])
+16:19:30.976 INFO - Done: [find element: By.cssSelector: li:nth-child(2)]
+16:19:30.979 INFO - Executing: [get text: 5 [[ChromeDriver: chrome on LINUX (92a80a91e6c9b51207d73d795edd4566)] -> css selector: li:nth-child(2)]])
+16:19:30.996 INFO - Done: [get text: 5 [[ChromeDriver: chrome on LINUX (92a80a91e6c9b51207d73d795edd4566)] -> css selector: li:nth-child(2)]]
+16:19:31.001 INFO - Executing: [delete session: ef9c2d13-7c89-4ad1-b405-301602367f49])
+16:19:31.068 INFO - Done: [delete session: ef9c2d13-7c89-4ad1-b405-301602367f49]
